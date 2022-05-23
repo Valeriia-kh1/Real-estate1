@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style/custom.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo"><a href="#">SmartSpace</a></div>
+            <div class="menu-container">
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Service</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="welcome-section">
+            <div class="header-content">
+                <h3>RESIDENTIAL & OFFICE SPACES</h3>
+                <h1>Smart Living Style for Smart People</h1>
+                <p>Much did had call new drew that kept. Limits expect wonder law she. Now has you views woman noisy
+                    match money rooms.</p>
+                <div class="header-form">
+                    <label>
+                        <input type="text" placeholder="Enter Zipcode to search properties" />
+                    </label>
+                    <button>Search Now!</button>
+                </div>
+                <div>
+                    <p>Our Amazing Partners</p>
+                    <ul class="partner-list">
+                        <li><img src="./img/partner1.png"></li>
+                        <li><img src="./img/partner2.png"></li>
+                        <li><img src="./img/partner3.png"></li>
+                        <li><img src="./img/partner4.png"></li>
+                        <li><img src="./img/partner5.png"></li>
+                        <li><img src="./img/partner6.png"></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="single-item">
+                <div><img src="./img/header-image.png" alt="Header image"></div>
+                <div><img src="./img/header-image1.png" alt="Header image"></div>
+            </div>
+
+        </section>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    
+
+<script>
+        $(document).ready(function(){
+$('.single-item').slick({
+            rtl: true
+});
+        });</script>
+
+</body>
+
+</html>
